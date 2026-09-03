@@ -13,5 +13,22 @@ Environment Set up:
 python --version
 uv --version
 pip install uv (for UV Installation)
-uv init
+uv init --python 3.12
 uv sync (This will take care of venv creation)
+git branch -m main
+git add .
+git commit -m "intial commit"
+uv add langchain
+uv add langchain-groq
+.venv/Scripts/activate
+
+Create your file .ipynb or .py, select your kernel 
+Note: you can install ipykernel or it is will be installed automatically when you allow notification
+
+1. create .env file and paste your API keys
+2. Include .env and .venv in gitignore file 
+
+Core Components of Langchain:
+Models
+Messages
+Agents
