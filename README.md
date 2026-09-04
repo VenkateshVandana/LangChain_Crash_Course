@@ -29,6 +29,9 @@ Note: you can install ipykernel or it is will be installed automatically when yo
 2. Include .env and .venv in gitignore file 
 
 Core Components of Langchain:
+
 Models
 Messages
+Prompts
 Agents
+
